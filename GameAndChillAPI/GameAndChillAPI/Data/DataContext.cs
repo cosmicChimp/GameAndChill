@@ -17,6 +17,7 @@ namespace GameAndChillAPI.Data
         // SETS MIGRATION PATH FOR DATABASE, POPULATES DATABASE WITH MODEL NAME
         public DbSet<Value> Values { get; set; }
         //   FROM MODEL^    ^ POPULATES DB WITH THIS NAME
+        public DbSet<User> Users { get; set; }
 
     }
 }
